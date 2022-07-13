@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Nunito&display=swap"
+      rel="stylesheet"
+    />
+    <!-- icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <title>Job Portal</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar">
+      <h2 class="navbar-logo"><a href="#">Job Portal</a></h2>
+      <div class="navbar-menu">
+        <a href="#jobs">Jobs</a>
+        <a href="#companies">Companies</a>
+        <a href="#testimonial">Testimonial</a>
+        <a href="#blog"> Blogs</a>
+        <a href="#">Sign In</a>
+      </div>
+      <div class="menu-toggle">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+    <!-- Header -->
+    <header>
+      <h1 class="header-title">
+        FIND THE <br />
+        <span>PERFECT JOB</span> <br />
+        FOR YOU
+      </h1>
+    </header>
+    <!-- Seachbar -->
+    <div class="search-wrapper">
+      <div class="search-box">
+        <div class="search-card">
+          <input class="search-input" type="text" placeholder="Job title" />
+          <button class="search-button">Search</button>
+        </div>
+      </div>
+    </div>
+    <!-- filter -->
+    <div class="filter-box">
+      <div class="filter-dropdown">
+        <select class="filter-select" id="job-level" name="job-level">
+          <option>Job Level</option>
+          <option value="">Entry</option>
+          <option value="">Mid-Senior</option>
+          <option value="">Director</option>
+        </select>
+        <select name="job-function" id="job-function" class="filter-select">
+          <option value="">Job Function</option>
+          <option value="">IT</option>
+          <option value="">Management</option>
+          <option value="">Education</option>
+        </select>
+        <select class="filter-select" name="employment" id="employment">
+          <option value="">Employment Type</option>
+          <option value="">Internship</option>
+          <option value="">Part Time</option>
+          <option value="">Full Time</option>
+        </select>
+        <select class="filter-select" name="location" id="location">
+          <option value="">Locations</option>
+          <option value="">Remote</option>
+          <option value="">In Office</option>
+        </select>
+        <select class="filter-select" name="education" id="education">
+          <option value="">Education</option>
+          <option value="">High School</option>
+          <option value="">Bachelor's degree</option>
+          <option value="">Masters degree</option>
+        </select>
+      </div>
+      <div class="filter-chosen">
+        <div class="chosen-card">
+          Remote <i class="fas fa-times-circle"></i>
+        </div>
+        <div class="chosen-card">
+          Full Time <i class="fas fa-times-circle"></i>
+        </div>
+        <div class="chosen-card">
+          Financial Tech <i class="fas fa-times-circle"></i>
+        </div>
+        <div class="chosen-card">
+          Entry Level <i class="fas fa-times-circle"></i>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
