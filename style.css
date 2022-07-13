@@ -39,7 +39,7 @@ h1 {
 }
 
 .navbar-logo > a {
-  letter-spacing: 2.5;
+  letter-spacing: 2.5px;
   text-decoration: none;
   color: var(--whiteColor);
 }
@@ -63,7 +63,7 @@ h1 {
   width: 15px;
   height: 2px;
   margin: 3px auto;
-  transition: all 0.3 ease-in-out;
+  transition: all 0.3ms ease-in-out;
   cursor: pointer;
 }
 
@@ -81,11 +81,11 @@ header {
   position: absolute;
   top: 13rem;
   left: 3rem;
-  letter-spacing: 3;
+  letter-spacing: 3px;
   font-weight: bolder;
   font-size: 52px;
   color: var(--whiteColor);
-  text-shadow: 4px 2px 0px rgba(0, 0, 0, 0.2);
+  text-shadow: 4px 2px 0 rgba(0, 0, 0, 0.2);
 }
 
 .header-title > span {
