@@ -168,9 +168,8 @@ header {
 }
 
 .chosen-card {
-    background: var(--primaryColor);
-    padding: 0.2rem 0.5rem;
-    border-radius: 20px;
-    color: var(--whiteColor);
-    
+  background: var(--primaryColor);
+  padding: 0.2rem 0.5rem;
+  border-radius: 20px;
+  color: var(--whiteColor);
 }
