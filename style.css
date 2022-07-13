@@ -104,10 +104,9 @@ header {
   width: 100%;
   position: absolute;
   background-color: var(--greyColor);
-  box-shadow: rgba(2, 11, 20, 0.2) 0px 5px 15px;
+  box-shadow: rgba(2, 11, 20, 0.2) 0 5px 15px;
   top: -45%;
   height: 100%;
-  width: 100%;
 }
 
 .search-card {
@@ -133,7 +132,6 @@ header {
 }
 
 .filter-box {
-  width: 100%;
   height: auto;
   font-size: 0.8rem;
   width: 60%;
