@@ -404,7 +404,8 @@ header {
   justify-content: center;
   align-items: center;
   padding: 2rem 1rem;
-  box-shadow: rgba(50,50,93,0.25) 0px 13px 27p -5px, rgba(0,0,0,0.3) 0px 8px 16px -8px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   color: var(--blackColor);
 }
 
@@ -415,7 +416,7 @@ header {
 }
 
 .swiper-slide h3 {
-  font-family: 'Noto Serif', serif;
+  font-family: "Noto Serif", serif;
 }
 
 .testimoni-pic {
@@ -430,4 +431,3 @@ header {
   object-fit: cover;
   border-radius: 50%;
 }
-
