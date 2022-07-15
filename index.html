@@ -17,6 +17,11 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     />
+    <!-- swiper js -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
     <title>Job Portal</title>
   </head>
   <body>
@@ -232,12 +237,70 @@
           <p>Asus</p>
           <button class="featured-button">View Jobs</button>
         </div>
-        <div class="featured-card">
-          <img class="featured-image" src="assets/spotify.png" alt="spotify" />
-          <p>Spotify</p>
-          <button class="featured-button">View Jobs</button>
-        </div>
       </div>
     </section>
+    <section class="testimoni" id="testimoni">
+      <h1 class="section-title">Testimonial</h1>
+      <p>Let's see what our clients say about us</p>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <i class="fas fa-quote-left"></i>
+            <h3>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
+              voluptas officia dolorum perspiciatis eaque ut
+            </h3>
+            <div class="testimoni-pic">
+              <img
+                src="assets/pexels-andrew-personal-training-697509.jpg"
+                alt="profile"
+              />
+              <p>John Doe</p>
+              <span>Software Development</span>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <i class="fas fa-quote-left"></i>
+            <h3>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
+              voluptas officia dolorum perspiciatis eaque ut
+            </h3>
+            <div class="testimoni-pic">
+              <img src="assets/pexels-chloe-1043471.jpg" alt="profile" />
+              <p>Jen Doe</p>
+              <span>Software Development</span>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <i class="fas fa-quote-left"></i>
+            <h3>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
+              voluptas officia dolorum perspiciatis eaque ut
+            </h3>
+            <div class="testimoni-pic">
+              <img src="assets/pexels-pixabay-220453.jpg" alt="profile" />
+              <p>Jack Doe</p>
+              <span>Software Development</span>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <i class="fas fa-quote-left"></i>
+            <h3>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
+              voluptas officia dolorum perspiciatis eaque ut
+            </h3>
+            <div class="testimoni-pic">
+              <img src="assets/pexels-pixabay-415829.jpg" alt="profile" />
+              <p>Jef Doe</p>
+              <span>Software Development</span>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="app.js"></script>
   </body>
 </html>
