@@ -317,7 +317,7 @@ header {
   border: none;
   color: var(--blackColor);
   background-color: var(--yellowColor);
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-shadow: rgba(0, 0, 0, 0.35px) 0px 5px 15px;
   z-index: 2;
   cursor: pointer;
 }
