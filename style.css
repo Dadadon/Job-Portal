@@ -349,7 +349,7 @@ header {
 
 .featured-wrapper {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px,1fr));
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   gap: 2rem;
   align-items: center;
   width: 100%;
@@ -366,7 +366,7 @@ header {
 }
 
 .featured-card:hover {
-  box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .featured-button {
