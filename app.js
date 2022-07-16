@@ -1,5 +1,5 @@
-//swiper
 
+//swiper
 var swiper = new Swiper(".mySwiper", {
   loop: true,
   autoplay: {
